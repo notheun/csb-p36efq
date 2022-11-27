@@ -1,0 +1,321 @@
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fdbe34;
+  padding: 20px;
+  margin: 0;
+}
+h1,
+h2,
+p,
+ul,
+li {
+  font-family: sans-serif;
+}
+.navContainer img {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navContainer h1 {
+  position: relative;
+  padding: 4px 36px;
+  margin-top: 24px;
+}
+
+.navContainer p {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+}
+
+.navContainer {
+  display: flex;
+}
+
+ul.navbar li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.navbar {
+  background-color: #10316b;
+  padding: 0;
+}
+ul.navbar li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background-color: #5c7893;
+}
+
+.active {
+  background-color: #0b409c;
+}
+
+.contents {
+  background-color: #fff;
+  padding: 20px;
+}
+.contents h2 {
+  padding: 0;
+  margin: 0;
+}
+.contents li {
+  margin-bottom: 10px;
+}
+
+/* Home */
+
+.homeHeader img {
+  width: 100%;
+}
+
+.header h1 {
+  margin: auto;
+  margin-top: 16px;
+  font-size: 64px;
+}
+
+.header p {
+  line-height: 1.5;
+  margin: 16px auto;
+}
+
+.homeInfo p {
+  line-height: 1.5;
+  margin: auto;
+}
+
+.adoptProcess p {
+  line-height: 1.5;
+  margin: auto;
+}
+
+/* Pet list*/
+
+.petListPage {
+  margin: 20px 0;
+}
+
+.cardImg {
+  max-height: 280px;
+  max-width: 250px;
+  overflow: hidden;
+}
+
+.cardImg img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardContainer li {
+  list-style: none;
+}
+
+.cardGrid {
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 64px;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+/* Search Container */
+
+.petHeader h1 {
+  margin: 8px 20px;
+}
+.searchContainer {
+  margin: 48px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectBar {
+  margin-right: 26px;
+}
+.selectBar select {
+  padding: 12px 20px;
+  font-size: 14px;
+}
+.searchBar {
+  margin-left: 26px;
+}
+
+.search {
+  padding: 12px 20px;
+  font-size: 14px;
+}
+
+/* Pet */
+
+.petCard:hover {
+  transform: scale(1.1);
+}
+
+.cardInfo h3 {
+  display: block;
+  overflow: visible;
+  color: black;
+}
+
+.cardList {
+  margin-top: 14px;
+}
+
+.cardList li {
+  color: black;
+  margin-top: 6px;
+  list-style: none;
+  position: relative;
+  right: 40px;
+}
+
+.cardList span {
+  color: gray;
+}
+
+/* Adoption */
+
+.adoptHeader {
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.adoptHeader img {
+  height: 100px;
+  width: 100px;
+}
+
+.adoptHeader h1 {
+  margin: auto;
+}
+
+.adoptForm {
+  margin: auto;
+  margin-top: 26px;
+  padding: 28px;
+  width: 90%;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.item input {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 6px 8px;
+  width: 43.5%;
+}
+
+.item select {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 6px 8px;
+}
+
+.street input {
+  width: 90%;
+}
+
+input:hover {
+  outline: none;
+  border: 2px solid #095484;
+}
+
+select:hover {
+  outline: none;
+  border: 2px solid #095484;
+}
+
+textarea:hover {
+  outline: none;
+  border: 2px solid #095484;
+}
+
+.item textarea {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 6px 8px;
+  width: 90%;
+}
+
+.item p {
+  margin: 6px 8px;
+  font-weight: 600;
+}
+
+small {
+  display: block;
+  line-height: 16px;
+  opacity: 0.8;
+  margin: 6px 8px;
+}
+.btn-block {
+  margin-top: 20px;
+  text-align: center;
+}
+.submitBtn {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #095484;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 8px;
+}
+.submitBtn:hover {
+  background-color: #0666a3;
+}
+
+.mailBtn {
+  text-decoration: none;
+  color: white;
+}
+
+/* Register */
+.regHeader h1 {
+  margin: 10px 36px;
+}
+
+.regForm {
+  margin: auto;
+  margin-top: 26px;
+  padding: 28px;
+  width: 90%;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.regInfo p {
+  color: white;
+}
+
+.btnContainer button {
+  background-color: #ffe578;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  box-shadow: #eac100;
+  font-size: 14px;
+  padding: 6px 10px;
+  margin: 4px 20px 4px 0;
+}
+
+.btnContainer button:hover {
+  opacity: 0.8;
+}
